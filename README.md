@@ -61,5 +61,5 @@ La arquitectura física y lógica implementada se compone de los siguientes elem
 ## 💾 Descargar Laboratorio
 Puedes descargar el archivo oficial de la práctica listo para ejecutarlo en Cisco Packet Tracer haciendo clic en el siguiente enlace:
 
-[📥 Descargar Proyecto Packet Tracer](./Practica%201%20Paket%20tracer.pkt)
+[📥 Descargar Proyecto Packet Tracer](https://github.com/jmonge12/vlan-intervlan-cisco-packet-tracer/blob/2ade7384012c854887346282a9734275b410d88b/Practica%201%20Paket%20tracer.pkt)
 
