@@ -47,7 +47,7 @@ La arquitectura física y lógica implementada se compone de los siguientes elem
 
 
 ### Switch-2
-![Configuración Switch-2]([switch2.png](https://github.com/jmonge12/vlan-intervlan-cisco-packet-tracer/blob/47a70506ce09a1c5be67bf890f68b9d1fea934a9/Switch-2_comandos.png))
+![Configuración Switch-2](https://github.com/jmonge12/vlan-intervlan-cisco-packet-tracer/blob/d5477b7a34042e8e9a67f50650566e1297b36ac3/Switch-2_comandos.png)
 
 
 ### Router-Interno
