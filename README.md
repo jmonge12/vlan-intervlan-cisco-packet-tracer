@@ -58,4 +58,8 @@ La arquitectura física y lógica implementada se compone de los siguientes elem
 ![Configuración Router-Perimetral](https://github.com/jmonge12/vlan-intervlan-cisco-packet-tracer/blob/9f230d25715e93a26d34a092a76c5cb90a753013/RauterPerimetral_comandos.png)
 
 
+## 💾 Descargar Laboratorio
+Puedes descargar el archivo oficial de la práctica listo para ejecutarlo en Cisco Packet Tracer haciendo clic en el siguiente enlace:
+
+[📥 Descargar Proyecto Packet Tracer](./Practica%201%20Paket%20tracer.pkt)
 
