@@ -43,38 +43,19 @@ La arquitectura física y lógica implementada se compone de los siguientes elem
 ## 💻 Comandos de Configuración (IOS)
 
 ### Switch-1
-```text
-enable
-configure terminal
-hostname Switch-1
-vlan 10
- name Administracion
-vlan 20
- name Recursos_Humanos
-vlan 30
- name Ingenieria
-exit
-interface range fa0/1 - 5
- switchport mode access
- switchport access vlan 10
-exit
-interface range fa0/6 - 10
- switchport mode access
- switchport access vlan 20
-exit
-interface range fa0/11 - 15
- switchport mode access
- switchport access vlan 30
-exit
-interface fa0/24
- switchport mode trunk
- switchport trunk allowed vlan 10,20,30
-exit
-interface gi0/1
- switchport mode trunk
- switchport trunk allowed vlan 10,20,30
-exit
+![Configuración Switch-1](switch1.png)
 
----
+
+### Switch-2
+![Configuración Switch-2](switch2.png)
+
+
+### Router-Interno
+![Configuración Router-Interno](router_interno.png)
+
+
+### RauterPerimetral
+![Configuración Router-Perimetral](router_perimetral.png)
+
 
 
