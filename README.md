@@ -43,7 +43,7 @@ La arquitectura física y lógica implementada se compone de los siguientes elem
 ## 💻 Comandos de Configuración (IOS)
 
 ### Switch-1
-![Configuración Switch-1](switch1.png)
+![Configuración Switch-1](https://github.com/jmonge12/vlan-intervlan-cisco-packet-tracer/blob/873ea9512719b4d813dca91774b6f34f6289da5a/Switch-1_comandos.png)
 
 
 ### Switch-2
