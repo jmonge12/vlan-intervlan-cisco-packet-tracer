@@ -43,7 +43,7 @@ La arquitectura física y lógica implementada se compone de los siguientes elem
 ## 💻 Comandos de Configuración (IOS)
 
 ### Switch-1
-
+```text
 enable
 configure terminal
 hostname Switch-1
@@ -76,81 +76,5 @@ interface gi0/1
 exit
 
 ---
-
-### Switch-2
-
-enable
-configure terminal
-hostname Switch-2
-vlan 10
- name Administracion
-vlan 20
- name Recursos_Humanos
-vlan 30
- name Ingenieria
-exit
-interface range fa0/1 - 5
- switchport mode access
- switchport access vlan 10
-exit
-interface range fa0/6 - 10
- switchport mode access
- switchport access vlan 20
-exit
-interface range fa0/11 - 15
- switchport mode access
- switchport access vlan 30
-exit
-interface fa0/24
- switchport mode trunk
- switchport trunk allowed vlan 10,20,30
-exit
-
----
-
-### Router-Interno
-
-enable
-configure terminal
-hostname Router-Interno
-interface gi0/0/0
- no shutdown
-exit
-interface gi0/0/0.10
- encapsulation dot1Q 10
- ip address 192.168.10.1 255.255.255.0
-exit
-interface gi0/0/0.20
- encapsulation dot1Q 20
- ip address 192.168.20.1 255.255.255.0
-exit
-interface gi0/0/0.30
- encapsulation dot1Q 30
- ip address 192.168.30.1 255.255.255.0
-exit
-interface gi0/0/1
- ip address 10.0.0.1 255.255.255.252
- no shutdown
-exit
-ip route 0.0.0.0 0.0.0.0 10.0.0.2
-
----
-
-### RauterPerimetral
-
-enable
-configure terminal
-hostname RauterPerimetral
-interface gi0/0/0
- ip address 10.0.0.2 255.255.255.252
- no shutdown
-exit
-interface gi0/0/1
- ip address 200.0.0.1 255.255.255.0
- no shutdown
-exit
-ip route 192.168.10.0 255.255.255.0 10.0.0.1
-ip route 192.168.20.0 255.255.255.0 10.0.0.1
-ip route 192.168.30.0 255.255.255.0 10.0.0.1
 
 
