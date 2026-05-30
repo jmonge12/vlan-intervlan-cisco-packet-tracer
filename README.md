@@ -55,7 +55,7 @@ La arquitectura física y lógica implementada se compone de los siguientes elem
 
 
 ### RauterPerimetral
-![Configuración Router-Perimetral](router_perimetral.png)
+![Configuración Router-Perimetral](https://github.com/jmonge12/vlan-intervlan-cisco-packet-tracer/blob/9f230d25715e93a26d34a092a76c5cb90a753013/RauterPerimetral_comandos.png)
 
 
 
